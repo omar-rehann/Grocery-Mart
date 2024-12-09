@@ -156,7 +156,7 @@ section.new input {
     border: none;
 }
 
-section.new span {
+section.new div span {
     position: relative;
     background-color: red;
     padding: 12px;

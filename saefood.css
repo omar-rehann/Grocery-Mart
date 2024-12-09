@@ -197,16 +197,6 @@ section.new input {
     border: none;
 }
 
-section.new span {
-    position: relative;
-    background-color: red;
-    padding: 12px;
-    border-radius: 10px;
-    color: white;
-    right: 44px;
-    cursor: pointer;
-}
-
 
 /* end new */
 

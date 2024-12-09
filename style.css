@@ -119,6 +119,7 @@ section.product .continer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 10px 10px;
 }
 
@@ -194,24 +195,6 @@ section.photo .row .image {
     border-radius: 10px;
     overflow: hidden;
     margin: 10px 10px;
-}
-
-section.photo .row .image .title {
-    position: absolute;
-    top: -25%;
-    transform: translateY(-20%);
-    background-color: red;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-    left: 0px;
-    transition: 2s;
-    width: 37%;
-    cursor: pointer;
-}
-
-section.photo .row .title:hover {
-    top: 5%;
 }
 
 
@@ -417,16 +400,6 @@ section.new input {
     border-radius: 10px;
     padding: 10px;
     border: none;
-}
-
-section.new span {
-    position: relative;
-    background-color: red;
-    padding: 12px;
-    border-radius: 10px;
-    color: white;
-    right: 44px;
-    cursor: pointer;
 }
 
 
